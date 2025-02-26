@@ -59,7 +59,7 @@ class MainActivity : ComponentActivity() {
 fun HomeScreen(){
     Scaffold(
         bottomBar = {
-//            BottomNavigationBar()
+            BottomNavigationBar()
         }
     ){
         padding ->
@@ -67,11 +67,11 @@ fun HomeScreen(){
             .fillMaxSize()
             .padding(padding)
         ){
-//            WalletSection()
-//            CardsSection()
+            WalletSection()
+            CardsSection()
             Spacer(modifier=Modifier.height(16.dp))
-//            FinanceSection()
-//            CurrenciesSection()
+            FinanceSection()
+            CurrenciesSection()
         }
 
     }
